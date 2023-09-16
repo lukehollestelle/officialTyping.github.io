@@ -21,6 +21,7 @@ const gameTime = 30 * 1000;
 window.timer = null;
 window.gameStart = null;
 
+
 function addClass(el, name){
     el.className += ' ' + name;
 }
@@ -48,10 +49,10 @@ function formatWord(word){
 }
 
 function newGame() {
+    document.getElementById('words').innerHTML = '';
     document.getElementById('game').className = '';
     window.timer = null;
     window.gameStart = null;
-    document.getElementById('words').innerHTML = '';
     for (let i = 0; i < 10; i++) {
         document.getElementById('words').innerHTML += randomNote();
     }
@@ -59,6 +60,12 @@ function newGame() {
     addClass(document.querySelector('.letter'), 'current');
     document.getElementById('info').innerHTML = (gameTime / 1000) + '';
     window.timer = null;
+
+    let nextLetter = document.querySelector('.letter.current');
+    let cursor = document.getElementById('cursor');
+    cursor.style.top = nextLetter.getBoundingClientRect().top + 2 + 'px';
+    cursor.style.left = nextLetter.getBoundingClientRect().left + 'px';
+
 }
 
 function getWpm() {
@@ -188,8 +195,8 @@ document.getElementById('game').addEventListener('keydown', ev =>{
     }
 
     // move cursor
-    const nextLetter = document.querySelector('.letter.current');
-    const cursor = document.getElementById('cursor');
+    nextLetter = document.querySelector('.letter.current');
+    cursor = document.getElementById('cursor');
     const nextWord = document.querySelector('.word.current');
     if (nextLetter) {
         cursor.style.top = nextLetter.getBoundingClientRect().top + 2 + 'px';
