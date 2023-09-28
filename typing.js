@@ -1,20 +1,9 @@
-const note1 = 'You are the perfect person to go to the beach with. You are always down to go in the water and have fun which is a quality that I love so much about you. I had so much fun swimming with you and eating yummy food afterwards this summer, and I am so excited to do it all over again next summer.'.split(' ');
-const note2 = 'You have a small freckle to the right of your right eye that I think is really cute. I also like your bangs a lot I think they frame your face really well even though you swear I say otherwise.'.split(' ');
-const note3 = 'Thank you for taking so many pictures of us when we are hanging out because I look at our shared album a lot at school. Especially with so many couples walking around campus I like being able to look back at all the fun times we have together.'.split(' ');
-const note4 = 'I think it\'s really cute how much you like dogs. It shows that you\'re a very compassionate person and I love seeing you get super excited each time we see one whenever we\'re hanging out together. I hope we can take care of a funny dog together when we\'re older.'.split(' ');
-const note5 = 'My favorite date from this summer was probably our picnic date. The sushi I brought was terrible but it was still super peaceful being with you and eating yummy food.'.split(' ');
-const note6 = 'It\'s really cute that you started playing pokemon for me even though you didn\'t finish the game. It meant a lot to me that you went out of your way to explore some of my interests.'.split(' ');
-const note8 = 'Calling you is super nice because I love hearing your voice and especially when I\'m having a rough day at school, talking to you grounds me. You\'re always the first person I call whenever I feel like I did either really well or really poorly on a test.'.split(' ');
-const note9 = 'Our tennis and basketball day this summer was super random but super fun. You were really good at freethrow shooting, I had so much fun that day.'.split(' ');
-const note10 = 'I\'m typing all of these on September 15th and you just sent me a video of you getting ready to go to a party and you look so beautiful. I love seeing your awesome outfits and makeup you have such a great sense of style'.split(' ');
-const note11 = 'It\'s comforting spending time with you. I notice I get a lot more tired when I\'m with you and I think that I just feel very calm and safe around you because you are so caring and loving that it takes away a lot of my stress.'.split(' ');
-const note12 = 'Your unique songs that you perform for me almost every call are always very cute and funny. You somehow manage to create a new chorus and rhythm everytime and it\'s something I always look forward to on facetime.'.split(' ');
-const note13 = 'I\'m super proud to be your partner. You are so hardworking and dedicated to your schoolwork and SAO and it\'s something I really admire about you. You have an insane work ethic and I believe that will carry you very far in life.'.split(' ');
-const note14 = 'Long distance is really hard but you\'ve been so patient with me and I know that we can push through two more years. I can\'t wait until after college when I won\'t have to worry about watching you leave anymore.'.split(' ');
-const note15 = 'I really like walking to Whole Foods with you later in the day. It feels like we\'re an old couple to me for some reason, and it\'s always fun to pick out a little treat at the end too. I love you.'.split(' ');
+const note1 = 'Here is the first note that I am writing. These notes will all be in randomized order.'.split(' ');
+const note2 = 'This is the second note, hopefully you think my project is cool!'.split(' ');
+const note3 = 'I am going into my third year at UCSD at the time of writing this program.'.split(' ');
 
 
-const allnotes = [note1, note2, note3, note4, note5, note6, note8, note9, note10, note11, note12, note13, note14, note15];
+const allnotes = [note1, note2, note3;
 const wordsCount = words.length;
 const gameTime = 30 * 1000;
 window.timer = null;
