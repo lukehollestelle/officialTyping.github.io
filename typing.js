@@ -3,7 +3,7 @@ const note2 = 'This is the second note, hopefully you think my project is cool!'
 const note3 = 'I am going into my third year at UCSD at the time of writing this program.'.split(' ');
 
 
-const allnotes = [note1, note2, note3;
+const allnotes = [note1, note2, note3];
 const wordsCount = words.length;
 const gameTime = 30 * 1000;
 window.timer = null;
